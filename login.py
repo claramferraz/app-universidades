@@ -33,7 +33,7 @@ def visualizar_postagens():
         post = input("Digite o nome do professor:")
         print(postagens[post])
         if post not in postagens:
-            print("Professor ou título inválidos")
+            print("Professor inválido ou sem postagens")
             return
         
 enquetes = {}
