@@ -39,6 +39,8 @@ def registro_usuario():
     return login()
 
 def esqueci_senha():
+    usuarios = carregar_usuarios()
+    
     usuario = input("\nDigite seu nome de usuário:")
     if usuario not in usuarios:
         print("Usuário não encontrado:")
