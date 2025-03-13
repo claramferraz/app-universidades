@@ -20,11 +20,6 @@ def registro_usuario():
     usuarios = carregar_usuarios()
 
     nome = input("\nDigite seu nome:").strip()
-
-    if nome in usuarios:
-        print("Usuário já cadastrado")
-        return
-    
     tipo = input("Aluno ou Professor:").strip().lower()
     senha = input("Digite sua senha de 6 números:")
     usuarios[nome] = [tipo, senha]
