@@ -1,10 +1,18 @@
 {
     "Clara": [
         "professor",
-        "060510"
+        "020304"
     ],
     "Bruna": [
         "aluno",
         "123456"
+    ],
+    "Camila": [
+        "aluno",
+        "060510"
+    ],
+    "Felipe": [
+        "professor",
+        "090807"
     ]
 }
